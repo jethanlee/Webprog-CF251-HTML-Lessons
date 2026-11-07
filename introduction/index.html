@@ -1,25 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My favorite games and gaming schedule">
+    <title>Ethan's Gaming Hub</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="header">
+        <h1>Ethan's Gaming Hub</h1>
+        <p>A place for my <span class="highlight">favorite games!</span></p>
 
-<h1>Personal Profile Web page </h1>
-<br>
+        <nav>
+            <a href="#games">Games</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#tips">Tips</a>
+        </nav>
+    </div>
 
-<br>John Ethan Lee
-<br> ( Do not include birthdate / age / contact information)
-<br>Education / Achievements
-<br>Course 
-<br>IT Experience
-<br>Hobbies & Interests
-<br>Goals In Life / Dream
-<br>Picture Gallery
-<p>
-<img src="https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=" alt="Random pictures" width="1176" height="1184"> 
-</p>
-  
+    <main>
+        <div id="games" class="section">
+            <h2>My Favorite Games</h2>
+            <p>I enjoy games that involve <strong>teamwork</strong> and
+                <em>creativity</em>.</p>
+
+            <img src="gaming.jpg" alt="My gaming setup">
+
+            <ul>
+                <li>Valorant</li>
+                <li>Roblox</li>
+                <li>Grand Theft Auto V</li>
+            </ul>
+
+            <a href="https://playvalorant.com/"
+               target="_blank" rel="noopener noreferrer">
+                Visit the Valorant website
+            </a>
+        </div>
+
+        <div id="schedule" class="section">
+            <h2>My Gaming Schedule</h2>
+
+            <table>
+                <caption>Weekend gaming plans</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Game</th>
+                        <th scope="col">Day</th>
+                        <th scope="col">Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Valorant</td>
+                        <td>Friday</td>
+                        <td>7:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Roblox</td>
+                        <td>Saturday</td>
+                        <td>3:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>GTA V</td>
+                        <td>Sunday</td>
+                        <td>4:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="tips" class="section">
+            <h2>Before Playing</h2>
+
+            <ol>
+                <li>Finish schoolwork.</li>
+                <li>Check your internet connection.</li>
+                <li>Take breaks between matches.</li>
+            </ol>
+
+            <p><strong>Remember:</strong> Play for fun and respect other players!</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Created by John Ethan Lee</p>
+        <a href="#header">Back to top</a>
+    </footer>
 </body>
 </html>
