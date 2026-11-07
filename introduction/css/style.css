@@ -1,94 +1,29 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    margin: 0;
-    background-color: #151925;
-    color: #eeeeee;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    background-color: lightgray;
+    font-family: Arial;
 }
 
-#header {
-    background-color: #252c40;
-    padding: 30px 20px;
-    text-align: center;
+#title {
+    color: blue;
 }
 
-h1,
-h2 {
-    color: #78dcca;
+.games {
+    background-color: lightblue;
 }
 
-.highlight {
-    color: #ffce70;
-    font-weight: bold;
-}
-
-a {
-    color: #78dcca;
-}
-
-a:hover {
-    color: #ffce70;
-}
-
-nav a {
-    display: inline-block;
-    margin: 5px 12px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-main {
-    max-width: 850px;
-    margin: 25px auto;
-    padding: 0 15px;
-}
-
-.section {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #252c40;
-    border-radius: 10px;
-}
-
-img {
-    display: block;
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border: 2px solid #78dcca;
-    border-radius: 8px;
+.favorite {
+    color: red;
 }
 
 table {
-    width: 100%;
     border-collapse: collapse;
 }
 
-caption {
-    margin-bottom: 10px;
-    text-align: left;
-}
-
-th,
-td {
-    padding: 10px;
-    border: 1px solid #65708a;
-    text-align: left;
+th, td {
+    border: 1px solid black;
+    padding: 5px;
 }
 
 th {
-    background-color: #36415c;
-}
-
-li {
-    margin-bottom: 8px;
-}
-
-footer {
-    padding: 20px;
-    text-align: center;
+    background-color: lightblue;
 }
