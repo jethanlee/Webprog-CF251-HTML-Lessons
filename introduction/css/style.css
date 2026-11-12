@@ -86,3 +86,15 @@ a {
 a:hover {
     background-color: #345c7c;
 }
+
+.container1 {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.container1 div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
